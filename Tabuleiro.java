@@ -42,6 +42,8 @@ public class Tabuleiro {
 		System.out.println("cordenada " + x + " editada");
 		System.out.println("cordenada " + y + " editada");
 		
+		amostraTabuleiro(tabuleiro);
+		
 	}
 	
 	
