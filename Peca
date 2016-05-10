@@ -1,5 +1,4 @@
 package smoothy;
-import java.util.Random;
 
 public class Peca {
 	
