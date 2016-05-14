@@ -56,13 +56,15 @@ public class Tabuleiro {
 						if(tabuleiro[i][j]==tabuleiro[i][k]){
 							iguais++;
 							k++;
-						}else{
-							iguais = 0;
-							k++;
-							}
-				}System.out.println(iguais);
+						}
+						else{
+							break;
+						}
+							
+					}System.out.print(iguais);
 			}
-		}
+	}
+		
 	
 	
 	// Print do Tabuleiro
