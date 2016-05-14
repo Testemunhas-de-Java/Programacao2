@@ -41,10 +41,28 @@ public class Tabuleiro {
 		System.out.println("Tabuleiro editado");
 		System.out.println("cordenada " + x + " editada");
 		System.out.println("cordenada " + y + " editada");
+		eliminapecas();
 		
 		amostraTabuleiro(tabuleiro);
 		
 	}
+	
+	public static void eliminapecas(){
+		int i = 0;
+			for (int j=0;j<tabuleiro.length;j++) {
+				int k = j+1;
+				int iguais =0;
+					while (k< tabuleiro.length){
+						if(tabuleiro[i][j]==tabuleiro[i][k]){
+							iguais++;
+							k++;
+						}else{
+							iguais = 0;
+							k++;
+							}
+				}System.out.println(iguais);
+			}
+		}
 	
 	
 	// Print do Tabuleiro
